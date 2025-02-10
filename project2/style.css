@@ -1,0 +1,16 @@
+
+body{
+    background-color: burlywood;
+}
+#main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+
+#info > h4{
+    text-align: center;
+}
