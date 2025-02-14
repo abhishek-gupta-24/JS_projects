@@ -83,6 +83,7 @@ function newGame(){
         btnDiv.removeChild(newGameBtn);
         info.removeChild(btnDiv);
         playGame=true;
+        randomNumber=parseInt(Math.random()*100+1);
     })
 }
 
